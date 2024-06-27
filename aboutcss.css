@@ -1,0 +1,8 @@
+
+.image{
+    display: block;
+    margin-left: auto;
+    width: 30px;
+    height: 50px;
+    border-radius: 30%;
+}

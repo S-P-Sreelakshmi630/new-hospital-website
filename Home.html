@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet"href="css/bootstrap.css">
+    <link rel="stylesheet"href="css/font-awesome.css">
+    <script src="js/bootstrap.bundle.js"async></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Health-plus</label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="emergency services.html">Emergency services</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="tests.html">Tests</a></li>
+            <li><a href="Contactus.html">contacts</a></li>
+        </ul>
+    </nav>
+</body>
+<div class="images-slideshow">
+    <div class="imageSlides fade">
+        <img src="gettyimages-1312706413-170667a.jpg">
+    </div>
+    <div class="imageSlides fade">
+        <img src="gettyimages-1312706413-170667a.jpg">
+    </div>
+    <div class="imageSlides fade">
+        <img src="image3.jpeg">
+    </div>
+    <div class="imageSlides fade">
+        <img src="image4.jpeg">
+    </div>
+    <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+    <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+</div>
+<script src="fun.js"></script>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="gettyimages-1312706413-170667a.jpg" class="d-block w-100 rounded img-thumbnail">
+      </div>
+      <div class="carousel-item">
+        <img src="brain 1.png" class="d-block w-100 rounded img-thumbnail">
+      </div>
+      <div class="carousel-item">
+        <img src="eqep.jpeg" class="d-block w-100 rounded img-thumbnail">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</html>
